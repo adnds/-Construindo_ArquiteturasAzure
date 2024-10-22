@@ -1,3 +1,3 @@
-# -Construindo_ArquiteturasAzure
+# Construindo_ArquiteturasAzure
 
 Construindo Arquiteturas no Azure

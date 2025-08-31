@@ -83,8 +83,6 @@ FDC	0.98	0.95	0.96	87
 FP	0.94	0.89	0.91	103
 FTE	0.97	0.93	0.95	68
 FA	0.92	0.87	0.89	95
-Análise de Importância das Features
-https://i.imgur.com/3qL9ZtK.png
 
 As features mais importantes para previsão de falhas são:
 

@@ -1,4 +1,4 @@
-#Sistema de Manutenção Preditiva para Máquinas Industriais
+Sistema de Manutenção Preditiva para Máquinas Industriais
 
 📋 Descrição do Projeto
 Sistema inteligente de manutenção preditiva que utiliza dados de sensores IoT para prever 5 tipos diferentes de falhas em máquinas industriais.
@@ -44,7 +44,7 @@ Análise de Valores Ausentes
 
 4.1% dos valores de torque estão ausentes
 
-#🔧 Abordagem Técnica
+🔧 Abordagem Técnica
 1. Pré-processamento
 Codificação da variável categórica tipo
 
@@ -68,7 +68,7 @@ Jaccard Score: Similaridade entre conjuntos de labels verdadeiros e previstos
 
 Relatórios de Classificação por tipo de falha
 
-#📈 Resultados
+📈 Resultados
 Desempenho Geral do Modelo
 Hamming Loss: 0.0243
 
@@ -86,7 +86,7 @@ FA	0.92	0.87	0.89	95
 Análise de Importância das Features
 https://i.imgur.com/3qL9ZtK.png
 
-#As features mais importantes para previsão de falhas são:
+As features mais importantes para previsão de falhas são:
 
 torque (24.3%)
 
@@ -103,7 +103,7 @@ tipo_encoded (5.7%)
 umidade_relativa (2.4%)
 
 
-#🔮 Próximos Passos
+🔮 Próximos Passos
 Implementar cross-validation estratificada
 
 Testar modelos de Gradient Boosting (XGBoost, LightGBM)
@@ -116,7 +116,7 @@ Desenvolvimento de API REST para previsões em tempo real
 
 Dashboard interativo para monitoramento
 
-#💡 Insights e Recomendações
+💡 Insights e Recomendações
 O torque e a velocidade rotacional são os indicadores mais importantes de falhas iminentes
 
 Máquinas do tipo H apresentam 35% mais falhas por dissipação de calor
